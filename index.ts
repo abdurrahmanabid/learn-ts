@@ -16,3 +16,8 @@
 // };
 // obj.age = 'thirty'; // Error: Type 'string' is not assignable to type 'number'.
 
+//! Explicitly
+let myName:string ;
+myName = 'John'; // Correct
+// myName = 123; // Error: Type 'number' is not assignable to type 'string'.
+console.log(myName);  
